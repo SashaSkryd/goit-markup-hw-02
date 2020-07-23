@@ -7,72 +7,75 @@ rgba(255, 255, 255, 0.6); футер ссылки
 #F5F4FA цвет фона вторичный
 #2F303A цвет футера */
 :root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 
 .page {
-    background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 /*header*/
 .logo {
-    color: var(--title-text-color);
-    text-decoration: none;
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 .logo-web {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-.site-nav, .nav-anchor {
-    color: var(--title-text-color);
-    text-decoration: none;
+.site-nav,
+.nav-anchor {
+  color: var(--title-text-color);
+  text-decoration: none;
 }
 .site-nav :hover,
 .site-nav :focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
+}
+.site-nav, .current{
+color: var(--accent-color);
 }
 .auth-anchor {
-    color: var(--primary-text-color);
-    text-decoration: none;
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 .section-title {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 /*hero*/
 .button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    width: 136px;
-    height: 30px;
-    padding: 10px 32px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 136px;
+  padding: 10px 32px;
+  margin: auto;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /*skill*/
 .feature {
-
 }
 /*What we doing*/
 .title-exercise {
-    color: var(--primary-white-color);
-
+  color: var(--primary-white-color);
 }
 .exercise-anchor {
-    text-decoration: none;
-    
+  text-decoration: none;
 }
 /*our comand*/
