@@ -1,0 +1,78 @@
+/*
+#2196F3 синий
+#757575 ссылка
+#212121 чёрный
+#757575 вторичный текст
+rgba(255, 255, 255, 0.6); футер ссылки
+#F5F4FA цвет фона вторичный
+#2F303A цвет футера */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+.page {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+/*header*/
+.logo {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.logo-web {
+    color: var(--accent-color);
+}
+.site-nav, .nav-anchor {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.site-nav :hover,
+.site-nav :focus {
+    color: var(--accent-color);
+}
+.auth-anchor {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.section-title {
+    color: var(--title-text-color);
+}
+/*hero*/
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 136px;
+    height: 30px;
+    padding: 10px 32px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+/*skill*/
+.feature {
+
+}
+/*What we doing*/
+.title-exercise {
+    color: var(--primary-white-color);
+
+}
+.exercise-anchor {
+    text-decoration: none;
+    
+}
+/*our comand*/
