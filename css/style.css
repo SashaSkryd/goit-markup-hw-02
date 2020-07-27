@@ -17,6 +17,7 @@ rgba(255, 255, 255, 0.6); футер ссылки
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -25,7 +26,7 @@ rgba(255, 255, 255, 0.6); футер ссылки
 .logo {
   color: var(--title-text-color);
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 .logo-web {
@@ -40,44 +41,164 @@ rgba(255, 255, 255, 0.6); футер ссылки
 .site-nav :focus {
   color: var(--accent-color);
 }
-.site-nav, .current{
-color: var(--accent-color);
+.site-nav,
+.current {
+  color: var(--accent-color);
 }
 .auth-anchor {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.section-title {
-  color: var(--title-text-color);
+.auth-nav li :hover,
+.auth-nav li :focus {
+  color: var(--accent-color);
 }
 /*hero*/
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
   border-radius: 4px;
   width: 136px;
   padding: 10px 32px;
-  margin: auto;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.87;
+}
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  text-align: center;
+  color: orange;
 }
 /*skill*/
+.skill {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+.skill-paragraff {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.74;
+}
 /*What we doing*/
+.doing {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--title-text-color);
+}
 .title-exercise {
-  color: var(--primary-white-color);
+  color: orange;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
 }
 .exercise-anchor {
   text-decoration: none;
 }
-/*our comand*/
-
-
-
+/*our command*/
+.section-command {
+  background: #f5f4fa;
+}
+.command {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.name-command {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.command-skill {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+/*Clients*/
+.clients {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+/*footer*/
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.main-address {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+}
+.footer-contakts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.join {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-white-color);
+}
 /*Main container portfolio*/
+.title-portfolio {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-color);
+}
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: orange;
+}
+.class {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+}
+.choice a {
+  text-decoration: none;
+}
+.button-portfolio {
+  color: var(--title-text-color);
+  background-color: #F5F4FA;
+  font-family: inherit;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  border-style: none;
+}
